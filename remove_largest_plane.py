@@ -333,11 +333,11 @@ if __name__ == "__main__":
     input_root = "1107\\txt"          # ← 请改成你的输入根目录
 
     # 2）处理后点云保存的根目录
-    output_root = "1107\\out"          # ← 请改成你想要的输出根目录
+    output_root = "1107\\1111"          # ← 请改成你想要的输出根目录
 
     # 3）核心算法参数（可根据实际点云密度微调）
     downsample_voxel = 1.0      # 降采样体素（米），数值越大越快
-    delete_plane_range = 80 # 平面两侧删除阈值（米），默认
+    delete_plane_range = 0.1 # 平面两侧删除阈值（米），默认
 
     # 4）是否只对最后一个文件弹出可视化窗口
     visualize_last = True
